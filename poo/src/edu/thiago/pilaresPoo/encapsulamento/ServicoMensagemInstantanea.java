@@ -6,6 +6,12 @@ public abstract class ServicoMensagemInstantanea {
     public abstract void enviarMensagem();
     public abstract void receberMensagem();
 
+    //somente as classes "Filhas" conhecem este método Protected
+    protected void validarConectadoInternet(){
+        System.out.println("Validando se está conectado à internet");
+    }
+
+
     // public void enviarMensagem(){
     //     validarConectadoInternet();
     //     System.out.println("Enviando Mensagem");

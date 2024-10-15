@@ -2,7 +2,7 @@ package edu.thiago.pilaresPoo.encapsulamento;
 
 public class MSNMessenger extends ServicoMensagemInstantanea {
     public void enviarMensagem(){
-        //validarConectadoInternet();
+        validarConectadoInternet();
         System.out.println("Enviando Mensagem pelo MSN");
         //salvarHistoricoMensagem();
     }
